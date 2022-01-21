@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:url(https://blog.powerdata.es/hs-fs/hubfs/iStock_000063192435_Small.jpg?width=700&name=iStock_000063192435_Small.jpg);
+  font-family: sans-serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  color: bisque;
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: 15vw;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 0.5em;
+  position :static;
+  left: 200px;
+  top: 200px;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+}
+
+.invisible{
+  display:none;
+}
+
+#error-texto{
+ 
+  
+  border-color: black;
+  
+  color:red;
+}
+.realizado{
+  background-color: blue;
+  color:cornsilk;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  position:fixed;
+  bottom: 0;
+}
